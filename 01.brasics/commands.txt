@@ -1,0 +1,35 @@
+
+1. create index.html and app.ts
+2. create package.json 
+  npm init -y
+3. install server
+  npm i light-server --save-dev
+
+  -run it 
+  npm run start
+  
+4. add tsconfig.js file
+  tsc --init
+
+  - find ts files and transform
+  tsc
+
+  - compile on save
+  tsc -w
+
+5. Source Map
+  enable in tsconfig.js: 
+  "sourceMap": true,
+  to be able to use check points in Souce tab from console, in the ts file, too
+
+6. No Implicit Any
+  enable in tsconfig.js:
+  "noImplicitAny": true,
+  to output an error if we have a variable that doesn't have at least :any.
+  because any is set by default to a variable that doesn't have any type
+
+7. No Unused Parameters
+  enable in tsconfig.js:
+  "noUnusedParameters": true,
+  to output an error if in a function we have an paramenter that is not used
+

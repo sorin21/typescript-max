@@ -1,0 +1,1 @@
+1. sudo create-react-app . --scripts-version=react-scripts-ts

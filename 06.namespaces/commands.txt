@@ -1,0 +1,7 @@
+1. In tsc we can create a single file app.js from all namespaces files
+  tsc --outFile app.js  app.ts
+  - import files in app.ts
+  /// <reference path="circleMath.ts" />
+
+2. to use es6 modules
+  npm i systemjs

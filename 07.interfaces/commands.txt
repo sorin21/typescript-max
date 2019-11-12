@@ -1,0 +1,5 @@
+1. tsc --init to create to tsconfig.js
+
+2. Interface
+    = interface meas that we define a type where we make sure that a certain field is available
+    = interfaces are a way to guarantee that certain props or methods are available

@@ -1,0 +1,5 @@
+1. tsc --init to create to tsconfig.js
+
+2. private prop = are only available from the object you create, based on this Person class
+   protected prop = also the same like private prop, but additionally they are accesible from any object 
+    or class that inherit from this class.
